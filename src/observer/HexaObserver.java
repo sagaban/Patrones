@@ -1,7 +1,7 @@
-package Observer;
+package observer;
 
 /**
- * Creao por santiago el 25/04/14.
+ * Creado por santiago el 25/04/14.
  */
 public class HexaObserver extends Observer {
     public HexaObserver(Subject subject){

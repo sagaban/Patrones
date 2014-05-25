@@ -9,7 +9,10 @@ public class SingleObject {
 
     //make the constructor private so that this class cannot be
     //instantiated
-    private SingleObject(){}
+    private SingleObject(){
+        System.out.println("Se crea el objeto Singleton");
+
+    }
 
     //Get the only object available
     public static SingleObject getInstance(){

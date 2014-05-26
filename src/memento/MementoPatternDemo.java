@@ -5,7 +5,7 @@ package memento;
  */
 public class MementoPatternDemo {
     public static void main(String[] args) {
-        Originator originator = new Originator();
+        Originator originator = new Originator(); // Este el el objeto al cual le voy a salvar el estado....
         CareTaker careTaker = new CareTaker();
         originator.setState("State #1");
         originator.setState("State #2");

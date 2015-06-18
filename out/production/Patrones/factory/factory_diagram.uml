@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="7.0" y="126.0">factory.Rectangle</node>
+    <node x="0.0" y="224.0">factory.ShapeFactory</node>
+    <node x="122.0" y="126.0">factory.Square</node>
+    <node x="-259.0" y="223.0">factory.FactoryPatternDemo</node>
+    <node x="18.5" y="48.0">factory.Shape</node>
+    <node x="-79.0" y="126.0">factory.Circle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.Rectangle" target="factory.Shape">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="factory.Square" target="factory.Shape">
+      <point x="0.0" y="-14.0" />
+      <point x="160.5" y="101.0" />
+      <point x="78.5" y="101.0" />
+      <point x="24.0" y="14.0" />
+    </edge>
+    <edge source="factory.ShapeFactory" target="factory.Rectangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory.ShapeFactory" target="factory.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory.Circle" target="factory.Shape">
+      <point x="0.0" y="-14.0" />
+      <point x="-46.0" y="101.0" />
+      <point x="30.5" y="101.0" />
+      <point x="-24.0" y="14.0" />
+    </edge>
+    <edge source="factory.ShapeFactory" target="factory.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory.FactoryPatternDemo" target="factory.ShapeFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-30.0" y="150.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
